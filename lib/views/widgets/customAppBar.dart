@@ -10,7 +10,7 @@ class CustomAppBar extends StatelessWidget {
       children: [
         Text(
           'Notes',
-          style: TextStyle(),
+          style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
         Spacer(),
         CustomSearchIcon(),
